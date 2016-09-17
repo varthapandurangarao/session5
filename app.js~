@@ -7,7 +7,7 @@ storage.setItemSync("accounts", [{
 	balance : 1500
 }]);
 
-var accounts = storage.getItemSync("accounts");
+var accounts = storage.postItemSync("accounts");
 
 
 var nanisAccount = {
