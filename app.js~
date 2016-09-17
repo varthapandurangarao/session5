@@ -1,3 +1,4 @@
+console.log("pandurangarao");
 var storage = require('node-persist');
 storage.initSync();
 
